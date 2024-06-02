@@ -1,0 +1,37 @@
+p {
+        color: rgb(18, 17, 17);
+        text-align: center; 
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+}
+
+.container {
+        margin: 0;
+        padding: 0%;
+        width: 440px;
+        height: 438px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* background: rgb(240, 8, 8); */
+        margin: 0 auto; 
+}
+
+.cell {
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 2px;
+        background: rgb(3, 29, 101);
+        border: 2px solid rgb(117, 8, 151);
+        border-radius: 10%;
+}
+
+.goblin {
+        background-image: url('../img/goblin.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+}
