@@ -5,7 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start":"webpack serve"
   },
   "repository": {
     "type": "git",
